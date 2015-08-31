@@ -58,6 +58,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E2779D651B94D35D0097FF8C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E2D86F3B1B94CC6A00E8CAFA /* MasterViewController.swift */,
+				E2D86F3D1B94CC6A00E8CAFA /* DetailViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E2779D661B94D3C00097FF8C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E2D86F3F1B94CC6A00E8CAFA /* Main.storyboard */,
+				E2D86F421B94CC6A00E8CAFA /* Images.xcassets */,
+				E2D86F441B94CC6A00E8CAFA /* LaunchScreen.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		E2D86F2B1B94CC6A00E8CAFA = {
 			isa = PBXGroup;
 			children = (
@@ -80,11 +99,8 @@
 			isa = PBXGroup;
 			children = (
 				E2D86F391B94CC6A00E8CAFA /* AppDelegate.swift */,
-				E2D86F3B1B94CC6A00E8CAFA /* MasterViewController.swift */,
-				E2D86F3D1B94CC6A00E8CAFA /* DetailViewController.swift */,
-				E2D86F3F1B94CC6A00E8CAFA /* Main.storyboard */,
-				E2D86F421B94CC6A00E8CAFA /* Images.xcassets */,
-				E2D86F441B94CC6A00E8CAFA /* LaunchScreen.xib */,
+				E2779D651B94D35D0097FF8C /* ViewControllers */,
+				E2779D661B94D3C00097FF8C /* Resources */,
 				E2D86F371B94CC6A00E8CAFA /* Supporting Files */,
 			);
 			path = NoGit;
@@ -415,6 +431,7 @@
 				E2D86F571B94CC6B00E8CAFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E2D86F581B94CC6B00E8CAFA /* Build configuration list for PBXNativeTarget "NoGitTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +440,7 @@
 				E2D86F5A1B94CC6B00E8CAFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
